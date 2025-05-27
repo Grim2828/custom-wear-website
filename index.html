@@ -1,45 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Custom Wear Industry</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Custom Wear Industry</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; background: #f9f9f9; color: #333; }
+    header { background: #111; padding: 20px; color: #fff; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; }
+    .section { padding: 40px 20px; text-align: center; }
+    .products { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
+    .product { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px #ccc; width: 200px; }
+    iframe { width: 100%; height: 600px; border: none; border-radius: 10px; }
+    footer { background: #111; color: #fff; text-align: center; padding: 20px; margin-top: 40px; }
+  </style>
 </head>
 <body>
-    <header>
-        <img src="logo.png" alt="Custom Wear Industry Logo" class="logo" />
-        <nav>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#start-project">Start Your Project</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+  <header>
+    <h1>Custom Wear Industry</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#lead">Start Your Project</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-    <section id="hero">
-        <h1>Custom Wear Industry</h1>
-        <p>Your one-stop solution for premium quality apparel manufacturing.</p>
-    </section>
+  <section class="section" id="about">
+    <h2>Welcome to Custom Wear Industry</h2>
+    <p>Your one-stop solution for premium quality apparel manufacturing.</p>
+  </section>
 
-    <section id="start-project">
-        <h2>Start Your Project</h2>
-        <iframe src="https://huggingface.co/spaces/grim2828/clothing-lead-magnet" width="100%" height="600" frameborder="0"></iframe>
-    </section>
+  <section class="section" id="products">
+    <h2>Our Products</h2>
+    <div class="products">
+      <div class="product"><h3>T-Shirts</h3><p>Comfortable and customizable</p></div>
+      <div class="product"><h3>Tracksuits</h3><p>Perfect for training and casual wear</p></div>
+      <div class="product"><h3>Hoodies</h3><p>Warm, stylish, and made to last</p></div>
+      <div class="product"><h3>Shorts</h3><p>Breathable and lightweight</p></div>
+      <div class="product"><h3>Caps</h3><p>Stylish headwear with your brand</p></div>
+    </div>
+  </section>
 
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Email: customwear.28@gmail.com</p>
-        <p>Phone: +92 321 2732727</p>
-        <p>Address: Hajipura Road, Sialkot</p>
-        <p>
-            <a href="https://www.facebook.com/share/1CbjZLTYFf/?mibextid=wwXIfr">Facebook</a> |
-            <a href="https://www.instagram.com/custom.wear.industry?igsh=MWV6YnBlYXIzaWV4aA==">Instagram</a>
-        </p>
-    </section>
+  <section class="section" id="lead">
+    <h2>Start Your Project</h2>
+    <iframe src="https://huggingface.co/spaces/grim2828/clothing-lead-magnet"></iframe>
+  </section>
 
-    <footer>
-        <p>&copy; 2025 Custom Wear Industry. All rights reserved.</p>
-    </footer>
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: customwear.28@gmail.com | Phone: +92 321 2732727</p>
+    <p>Instagram: @custom.wear.industry</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Custom Wear Industry. All rights reserved.</p>
+  </footer>
 </body>
 </html>
